@@ -127,7 +127,7 @@ module Jekyll
         end
       end
       "<p><object data='/uml/#{name}.#{uml_type}' #{@html}
-        alt='PlantUML #{uml_type} diagram' class='plantuml' type='image/svg+xml' style='position: relative; display: inline-block;'/></object></p>"
+        alt='PlantUML #{uml_type} diagram' class='plantuml interactive' type='image/svg+xml' style='position: relative; display: inline-block;'></object></p>"
     end
   end
 end
